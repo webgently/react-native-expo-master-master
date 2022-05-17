@@ -8,8 +8,10 @@ import { Ionicons } from '@expo/vector-icons';
 import AppNavigator from './navigation/AppNavigator';
 
 export default class App extends Component {
+
   constructor(props) {
     super(props);
+    console.log('hello');
     this.state = {
       isLoadingComplete: false
     };
